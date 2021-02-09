@@ -1,0 +1,101 @@
+form {
+  position: relative;
+  top: -240px;
+  left: 60px;
+}
+
+.search-button-1 {
+  color: #ff7043;
+  font-weight: 400;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border-color: #ff7043;
+  border-width: 1px;
+  margin: 5px 0px;
+}
+
+.search-button-2 {
+  color: #ffffff;
+  background-color: #ff7043;
+  font-weight: 500;
+  border-radius: 5px;
+  border-color: #ff7043;
+  border-width: 1px;
+  margin: 5px 0px;
+}
+
+.full-app {
+  border: 1px solid #ff7043;
+  border-radius: 10px;
+  margin-top: 20px;
+  max-width: 1000px;
+  max-height: 720px;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.main-city {
+  color: #ff7043;
+  text-align: right;
+  padding: 35px 60px;
+  color: #ff7043;
+}
+
+.main-city h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding: 15px 0;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.main-city li {
+  list-style: none;
+  font-size: 25px;
+  padding: 5px 10px;
+}
+
+.daily-high-low {
+  display: inline;
+}
+
+.units {
+  font-size: 15px;
+  position: relative;
+  bottom: 6px;
+}
+
+.weather-for-day {
+  position: relative;
+  top: -180px;
+  right: 0px;
+  padding: 10px 40px;
+  color: #ff764a;
+  font-size: 1.3em;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.weather-for-day h5 {
+  font-size: 1.1em;
+}
+
+.card {
+  margin: 20px 0;
+  padding: 10px 0;
+  color: #ffa726;
+}
+
+.card h5 {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.card ul {
+  padding: 0;
+}
+
+.card li {
+  font-size: 18px;
+  list-style: none;
+  text-align: center;
+}

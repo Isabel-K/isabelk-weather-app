@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      src="https://kit.fontawesome.com/da1be135f4.js"
+      crossorigin="anonymous"
+      ></script>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Final Project - Isabel K</title>
+      <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+      />
+      <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="full-app">
+        <div class="main-city">
+          <h1>Singapore</h1>
+          <h2>Monday 14 Dec
+            <br />
+              16:00
+          </h2>
+          <ul>
+            <li class="daily-high-low">
+              <strong>  
+              <span id="daily-high">
+              33
+            </span>
+          </strong>
+              <span class="units">
+                  °C 
+                </span>
+            </li>
+            <li class="daily-high-low">
+                <span id="daily-low">
+              27
+                </span>
+              <span class="units">
+                  °C 
+                </span>
+            </li>
+            <li>
+              🌞 Sunrise 06:58
+            </li>
+            <li>
+              🌙 Sunset 19:01
+            </li>
+          </ul>
+        </div>
+          <div class="col-6">
+            <form id= search-form>
+              <input
+                type="search"
+                placeholder="Search for city or place..."
+                class="form-control"
+                id= "form-control-1"
+                autofocus
+              />
+              <input
+              type="submit"
+              value="Search"
+              class="search-button-1"
+              id="search-button-1"
+            />
+            <br />
+            <input
+            type="submit"
+            value="Current Location"
+            class="search-button-2"
+            id="search-button-2"
+          />
+            </form>
+          </div>
+          
+          <div class="weather-for-day">
+            <div class="row">
+              <div class="class col-3">
+                <h5 class="time-of-day">Morning</h5>
+                <p class="time-of-day-weather">
+                  <i class="fas fa-cloud-sun"></i>
+                  <br />
+                  33°C
+                </p>
+              </div>
+              
+              <div class="class col-3">
+                <h5 class="time-of-day">Afternoon</h5>
+                <p class="time-of-day-weather">
+                  <i class="fas fa-cloud-sun-rain"></i>
+                  <br />
+                  27°C
+                </p>
+              </div>
+              
+              <div class="class col-3">
+                <h5 class="time-of-day">Evening</h5>
+                <p class="time-of-day-weather">
+                  <i class="fas fa-cloud-showers-heavy"> </i>
+                  <br />
+                  28°C
+                </p>
+              </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-2">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Tues</h5>
+                      <p class="card-text">
+                        <ul>
+                          <li>
+                              <i class="fas fa-cloud-sun-rain"></i>
+                          </li>
+                          <li>
+                            34°C
+                          </li>  
+                          <li>
+                            27°C
+                            </li>  
+                        </ul>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-2">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Wed</h5>
+                      <p class="card-text">
+                          <ul>
+                            <li>
+                                <i class="fas fa-cloud-showers-heavy"> </i>
+                            </li>
+                              <li>
+                                34°C
+                              </li>  
+                              <li>
+                                26°C
+                              </li>  
+                          </ul>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Thurs</h5>
+                        <p class="card-text">
+                          <ul>
+                            <li>
+                                <i class="fas fa-cloud-sun"></i>
+                            </li>
+                            <li>
+                              33°C
+                            </li>  
+                            <li>
+                              25°C
+                              </li>  
+                          </ul>
+                        </p>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-sm-2">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Fri</h5>
+                      <p class="card-text">
+                        <ul>
+                          <li>
+                              <i class="fas fa-cloud-sun-rain"></i>
+                          </li>
+                          <li>
+                            32°C
+                          </li>  
+                          <li>
+                            25°C
+                            </li>  
+                        </ul>
+                      </p>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-sm-2">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Sat</h5>
+                    <p class="card-text">
+                      <ul>
+                        <li>
+                            <i class="fas fa-cloud-sun-rain"></i>
+                        </li>
+                        <li>
+                          31°C
+                        </li>  
+                        <li>
+                          24°C
+                          </li>  
+                      </ul>
+                    </p>
+                  </div>
+                </div>
+          </div>
+
+          <div class="col-sm-2">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Sun</h5>
+                  <p class="card-text">
+                    <ul>
+                      <li>
+                          <i class="fas fa-sun"></i>
+                      </li>
+                      <li>
+                        34°C
+                      </li>  
+                      <li>
+                        27°C
+                        </li>  
+                    </ul>
+                  </p>
+                </div>
+              </div>
+        </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <script src="src/index.js"></script>
+    </body>
+</html>

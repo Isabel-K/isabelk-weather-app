@@ -99,3 +99,13 @@ form {
   list-style: none;
   text-align: center;
 }
+
+.by-line {
+  font-size: 15px;
+}
+
+.link {
+  color: #ff7043;
+  text-decoration-color: #ff7043;
+  font-weight: 600;
+}
